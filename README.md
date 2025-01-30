@@ -1,0 +1,3 @@
+# PHP Array Iteration Order Inconsistency
+
+This repository demonstrates a subtle bug in PHP related to the order of elements when iterating over arrays containing a mix of string and integer keys.  The order of elements is not always predictable, leading to potential inconsistencies across PHP versions or environments. This issue is detailed further in the `bug.php` file. The corrected code showing a method of guaranteed order is in `bugSolution.php`.
